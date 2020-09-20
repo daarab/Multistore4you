@@ -1,0 +1,208 @@
+.nav-link{
+  color: black !important;
+}
+.navbar-toggler{
+  color: grey;
+}
+.middle {
+  font-size: 17px;
+  padding-top:2%;
+}
+.last{
+    padding-top:2%;
+    padding-right: 5%;
+}
+.testimonial-image{
+  height: 500px;
+    width: 100%;
+    background-size: cover;
+
+}
+#features {
+
+  background: #001524;
+  color: white;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3% 1%;
+
+  background-color: #1c2f3c;
+
+}
+.container-fluid-1 {
+padding: 3% 10%;
+}
+.department{
+  padding: 3% 10%;
+}
+.icon {
+  fill:#8bc34a;
+  color: #8bc34a;
+  margin-bottom: 1rem;
+}
+.dept-head{
+  text-align: center;
+ color: black;
+}
+.single-content{
+  position: relative;
+  transition: .3s;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
+}
+.single-content .text-content,
+.single-content:after{
+  position: absolute;
+  left: 20px;
+  right:20px;
+}
+.single-content:after{
+  content:'';
+  display: block;
+  background: #58D68D;
+  top: 20px;
+  bottom:20px;
+  opacity: 0;
+  transform: rotate3d(-1, 1, 0, 100deg);
+  transition: .4s;
+}
+.single-content:hover:after{
+  opacity:.9;
+  transform:rotate3d(0, 0, 0, 0deg);
+}
+.single-content .dept-img{
+  width:100%;
+  height: 250px;
+}
+.text-content{
+  top:45%;
+  opacity: 0;
+  z-index: 1;
+  transform: translate(10%, 30%);
+  transition: .3s;
+  text-align: center;
+  color: white;
+
+}
+.text-content h4{
+  font-family: big john;
+}
+.single-content:hover .text-content{
+  opacity:1;
+  transform: translate(0, -50%);
+  transition-delay: .3s;
+}
+
+.card-img-top{
+  width: 100%;
+  height: 200px;
+}
+
+
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+.arrivals{
+  background: #1c2f3c;
+  color: white;
+  padding: 5% 10% 5% 14%;
+}
+
+.arr-image{
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+
+}
+.arr-image:hover{
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
+}
+.customer{
+  background-image: url('https://www.multistore4you.com/wp-content/uploads/2019/07/logo-leaf-new.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+    background-image: linear-gradient(180deg, #ffffff 0%, #f8f6f3 100%);
+padding: 3% 10%;
+}
+.size-full{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.fa-star{
+  color:#ffbb1e;
+}
+.card-1{
+margin-top: 12%;
+width:25rem !important;
+height:25rem;
+padding: 5% 10% 15% 10%;
+font-size: 18px;
+}
+.special{
+  width:25rem !important;
+  height:30rem !important;
+
+}
+.card-body-1{
+  /* margin-bottom: 5%; */
+}
+.card-body-2{
+  position: relative;
+    color: #ffffff;
+    padding: 35% 10%;
+
+}
+
+
+.special::before {
+      content: "";
+      background-image: url('https://images.unsplash.com/photo-1579113800032-c38bd7635818?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+      background-size: cover;
+      position: absolute;
+
+      opacity: 0.75;
+      background-size: 25rem 30rem;
+      width:25rem !important;
+      height:30rem !important;
+}
+footer{
+  background: #001524;
+  color: white;
+  padding: 5% 10%;
+}
+.download-button{
+  margin: 2%;
+}
+.foot{
+  padding-top: 5%;
+}
+.foot-1{
+  padding-top: 3%;
+}
+.foot-image{
+  width: 250px;
+  height: 150px;
+}
+.right{
+  text-align: right;
+}
+.detail{
+  color:#c6c6c6;
+}
